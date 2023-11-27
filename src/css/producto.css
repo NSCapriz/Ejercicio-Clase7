@@ -1,0 +1,18 @@
+
+  /* Estilos para productos */
+  
+  .container_productos{
+    margin: 1rem;
+  }
+  
+  .container_productos--detalle{
+    display: block;
+  }
+  
+  .container_productos--detalle span{
+    font-weight: 600;
+  }
+  
+  .ocultar{
+    display: none;
+  }

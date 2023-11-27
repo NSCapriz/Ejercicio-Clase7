@@ -1,0 +1,81 @@
+
+/* Estilos de la Navbar */
+
+.container_navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: yellowgreen;
+    padding-right: 1rem;
+  }
+  
+  .container_navbar--logo{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  
+  .container_navbar--logo p{
+    font-size: 1.5rem;
+    padding-left: 1rem;
+    font-weight: 600;
+  }
+  
+  .container_navbar--logo img{
+    width: 20vh;
+    height: 20vh;
+    padding: 1rem;
+    border-radius: 50%;
+  }
+  
+  .container_navbar--links{ 
+    display: flex;
+    justify-content: end;
+    align-items: center;
+  }
+  
+  .container_navbar--links button{
+    display: none;
+  }
+  
+  .container_navbar--links ul {
+    display: flex;
+  }
+  
+  .container_navbar--links ul li{
+    padding-left: 1rem;
+    padding-right: 1rem;
+  
+    list-style: none;
+  }
+  
+  
+  @media (max-width: 768px) {
+    .container_navbar--links button{
+      display: block;
+      cursor: pointer;
+    }
+  
+    .container_navbar--links ul  {
+      display: none; 
+      cursor: pointer;
+      flex-direction: column;
+      position: absolute;
+      top: 4.6rem; 
+      right: 0;
+      width: 25vh;
+      padding: 1rem;
+      text-align: center;
+      background-color: yellowgreen;
+      margin-right: 0.5rem;
+    }
+  
+    .nav-list.show {
+      display: flex;
+    }
+  
+    .nav-list li {
+      margin: 1rem 0;
+    }
+  
+  }
+  
