@@ -1,6 +1,7 @@
 import { useState } from "react";
 import '../../assets/css/producto.css'
 import { sku } from "../../javascript/sku";
+import Swal from 'sweetalert2'
 
 function Producto(props) {
     const [contenido, setContenido] = useState(false);
@@ -11,7 +12,10 @@ function Producto(props) {
 
     const comprar = () => {
         setStock(stock - 1)
-        alert("Gracias por comprar ✔")
+        Swal.fire("¡ Gracias por su compra !");
+        Swal.update({
+            icon: 'success'
+          })
     }
     return (
         <>
