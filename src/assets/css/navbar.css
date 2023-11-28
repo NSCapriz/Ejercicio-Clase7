@@ -18,6 +18,7 @@
     font-size: 1.5rem;
     padding-left: 1rem;
     font-weight: 600;
+    color: whitesmoke;
   }
   
   .container_navbar--logo img{
@@ -48,6 +49,17 @@
     list-style: none;
   }
   
+  .nav-list{
+    color: whitesmoke;
+  }
+
+  .nav-link{
+    cursor:not-allowed;
+  }
+
+.active{
+    cursor: pointer;
+  }
   
   @media (max-width: 768px) {
     .container_navbar--links button{
@@ -63,9 +75,9 @@
       top: 4.6rem; 
       right: 0;
       width: 25vh;
-      padding: 1rem;
+      padding: 2rem;
       text-align: center;
-      background-color: yellowgreen;
+      background-color: #1fbfbfc7;
       margin-right: 0.5rem;
     }
   
@@ -77,5 +89,9 @@
       margin: 1rem 0;
     }
   
+    .nav-list a {
+      color: whitesmoke;
+      border-bottom: solid 1px blue;
+    }
   }
   

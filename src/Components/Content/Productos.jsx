@@ -1,13 +1,17 @@
 import { useState } from "react";
 import '../../assets/css/producto.css'
+import { sku } from "../../javascript/sku";
 
 function Producto(props) {
     const [contenido, setContenido] = useState(false);
     const toggleContenido = () => {
         setContenido(!contenido);
     };
+    const [stock, setStock] = useState(8)
+
     const comprar = () => {
-        alert("Gracias por comprar nuestros productos")
+        setStock(stock - 1)
+        alert("Gracias por comprar ✔")
     }
     return (
         <>
@@ -29,10 +33,14 @@ function Producto(props) {
                     </p>
                     <p>
                         <span>Código: </span>
-                        {props.codigo}
+                        {sku}
+                    </p>
+                    <p>
+                        <span>En Stock: </span>
+                        {stock}
                     </p>
                     <div className="row justify-content-center align-items-center">
-                        <div className="col-md-2">
+                        <div className="d-flex justify-content-center align-items-center">
                             <button onClick={comprar} className="btn btn-dark">Comprar</button>
                         </div>
                     </div>

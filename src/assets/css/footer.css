@@ -2,3 +2,7 @@
     background-color: orange;
     color: white;
 }
+
+.container-footer svg{
+    margin: 0 2rem;
+}

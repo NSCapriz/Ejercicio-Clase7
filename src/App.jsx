@@ -16,14 +16,14 @@ function App() {
       <div className='container_fluid'>
         <div className="row justify-content-center align-items-center pt-4">
           <div className="col-md-4">
-            <h1 className='text-center color'>Productos</h1>
+            <h1 className='text-center color fw-bolder'>Productos</h1>
             <div className="row justify-content-center align-items-center">
-              <div className="col-md-6">
+              <div className="d-flex justify-content-center align-items-center">
                 <img src={producto} alt="Computadora" className='img-fluid mx-auto my-4 '/>
               </div>
             </div>
             <Producto nombre="Computadora Gamer" 
-            descripcion="rocesador: Intel Core i9-12900KF de 16 núcleos, 5.2 GHz. / Gráficos: NVIDIA GeForce RTX 3090, 24 GB GDDR6. / RAM: 64 GB DDR4, 3200 MHz. / Almacenamiento: SSD NVMe de 2 TB, 15000 RPM. / Conectividad: Wi-Fi 802.11ac, 3 USB 2.0, 6 USB 3.0. / Fuente de Alimentación: 750W."
+            descripcion="Procesador: Intel Core i9-12900KF de 16 núcleos, 5.2 GHz. / Gráficos: NVIDIA GeForce RTX 3090, 24 GB GDDR6. / RAM: 64 GB DDR4, 3200 MHz. / Almacenamiento: SSD NVMe de 2 TB, 15000 RPM. / Conectividad: Wi-Fi 802.11ac, 3 USB 2.0, 6 USB 3.0. / Fuente de Alimentación: 750W."
             precio="$120.000"
             codigo="12345"
             />
