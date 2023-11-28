@@ -1,10 +1,9 @@
 
   /* Estilos para productos */
-  
-  .container_productos{
-    margin: 1rem;
+  .container_productos {
+    min-height: 40vh;
   }
-  
+
   .container_productos--detalle{
     display: block;
   }

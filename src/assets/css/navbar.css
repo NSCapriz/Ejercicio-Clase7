@@ -4,7 +4,7 @@
 .container_navbar{
     display: flex;
     justify-content: space-between;
-    background-color: yellowgreen;
+    background-color: #1FBFBF;
     padding-right: 1rem;
   }
   
@@ -21,8 +21,8 @@
   }
   
   .container_navbar--logo img{
-    width: 20vh;
-    height: 20vh;
+    width: 15vh;
+    height: 15vh;
     padding: 1rem;
     border-radius: 50%;
   }
