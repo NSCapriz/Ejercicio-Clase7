@@ -9,7 +9,6 @@ import Producto from './Components/Content/Productos';
 import { Footer } from './Components/Global/Footer';
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
@@ -17,10 +16,10 @@ function App() {
       <div className='container_fluid'>
         <div className="row justify-content-center align-items-center pt-4">
           <div className="col-md-4">
-            <h1 className='text-center'>Productos</h1>
+            <h1 className='text-center color'>Productos</h1>
             <div className="row justify-content-center align-items-center">
               <div className="col-md-6">
-                <img src={producto} alt="Cpmputadora" className='img-fluid mx-auto my-4 '/>
+                <img src={producto} alt="Computadora" className='img-fluid mx-auto my-4 '/>
               </div>
             </div>
             <Producto nombre="Computadora Gamer" 

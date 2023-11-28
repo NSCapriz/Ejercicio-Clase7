@@ -19,9 +19,9 @@ const Navbar = () => {
         <div className={`container_navbar--links ${menu ? 'open' : ''}`}>
             <button onClick={toggleMenu} ></button>
             <ul className={`nav-list ${menu ? 'show' : ''}`}>
-                <li className="nav-link">Inicio</li>
-                <li className="nav-link active">Productos</li>
-                <li className="nav-link">Contacto</li>
+                <li ><a href="#" aria-disabled="true" className="nav-link">Inicio</a></li>
+                <li ><a href="#" className="nav-link active fw-bolder "> Productos</a></li>
+                <li >Contacto</li>
             </ul>
         </div>
       </div>
