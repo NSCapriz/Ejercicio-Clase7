@@ -11,7 +11,7 @@ const Navbar = () => {
     };
   
     return (
-      <div className="container_navbar">
+      <div className="container-fluid container_navbar">
         <div className="container_navbar--logo">
             <img src={ logo } alt="Logo" />
             <p>Lorem Ipsum</p>

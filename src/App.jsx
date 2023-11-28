@@ -16,7 +16,7 @@ function App() {
       <Navbar/>
       <div className='container_fluid'>
         <div className="row justify-content-center align-items-center pt-4">
-          <div className="col-md-8">
+          <div className="col-md-4">
             <h1 className='text-center'>Productos</h1>
             <div className="row justify-content-center align-items-center">
               <div className="col-md-6">
@@ -28,10 +28,10 @@ function App() {
             precio="$120.000"
             codigo="12345"
             />
-            <Footer/>
           </div>
         </div>
       </div>
+            <Footer/>
     </>
   )
 }

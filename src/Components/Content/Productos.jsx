@@ -11,6 +11,7 @@ function Producto(props) {
     }
     return (
         <>
+            <div className="container-fluid">
             <div className="row justify-content-center align-items-center container_productos">
                 <button onClick={toggleContenido}  className="btn btn-primary px-2 ">Ver detalles</button>
                 <div className={contenido ? "container_productos--detalle my-3" : "ocultar"}>
@@ -36,6 +37,7 @@ function Producto(props) {
                         </div>
                     </div>
                 </div>
+            </div>
             </div>
         </>
     );
